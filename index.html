@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <a href="#accueil" class="nav-logo">Portfolio</a>
+                <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                    <li><a href="#a-propos" class="nav-link">À propos</a></li>
+                    <li><a href="#competences" class="nav-link">Compétences</a></li>
+                    <li><a href="#projets" class="nav-link">Projets</a></li>
+                    <li><a href="#interets" class="nav-link">Centres d'intérêts</a></li>
+                    <li><a href="#sports" class="nav-link">Activités sportives</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-subtitle">Bienvenue sur mon portfolio</p>
+                <h1 class="hero-title">Je suis <span class="highlight">RAOUF TECH</span></h1>
+                <p class="hero-description">Développeur web passionné, spécialisé en création de sites modernes et interactifs.</p>
+                <div class="hero-buttons">
+                    <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                </div>
+                <div class="hero-social">
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-img-placeholder">
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="a-propos" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">À propos de moi</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="about-img-placeholder">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Qui suis-je ?</h3>
+                    <p>Je suis un développeur web passionné par la création d'expériences numériques uniques. Avec une solide formation en développement front-end et en intégration web, je maîtrise les technologies modernes pour concevoir des sites responsives et performants.</p>
+                    <p>Mon objectif est de transformer des idées créatives en solutions web fonctionnelles et esthétiques, en alliant design moderne et code propre.</p>
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>apouamounabdelraouf@gmail.com</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+237657041614</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>DOUALA, CAMEROUN</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-calendar"></i>
+                            <span>Disponible dès maintenant</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="section section-bg">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mes compétences</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                    <h3>HTML5</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="95"></div>
+                    </div>
+                    <p class="skill-percent">95%</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                    <h3>CSS3</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="90"></div>
+                    </div>
+                    <p class="skill-percent">90%</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-js"></i></div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="85"></div>
+                    </div>
+                    <p class="skill-percent">85%</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-react"></i></div>
+                    <h3>React</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="75"></div>
+                    </div>
+                    <p class="skill-percent">75%</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fab fa-node-js"></i></div>
+                    <h3>Node.js</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="70"></div>
+                    </div>
+                    <p class="skill-percent">70%</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3>SQL</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="80"></div>
+                    </div>
+                    <p class="skill-percent">80%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mes projets</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-img-placeholder"><i class="fas fa-laptop-code"></i></div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Site e-commerce</h3>
+                        <p>Plateforme de vente en ligne avec panier interactif et système de paiement.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-img-placeholder"><i class="fas fa-mobile-alt"></i></div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Application météo</h3>
+                        <p>Application web météo avec API temps réel et design responsive.</p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>API</span>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-img-placeholder"><i class="fas fa-tasks"></i></div>
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Gestionnaire de tâches</h3>
+                        <p>Application de gestion de projets avec fonctionnalités de suivi et collaboration.</p>
+                        <div class="project-tags">
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Centres d'intérêts -->
+    <section id="interets" class="section section-bg">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Centres d'intérêts</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="interets-grid">
+                <div class="interet-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Programmation</h3>
+                    <p>Passionné par le code et les nouvelles technologies.</p>
+                </div>
+                <div class="interet-card">
+                    <i class="fas fa-book"></i>
+                    <h3>Lecture</h3>
+                    <p>Lecteur assidu de livres techniques et de fiction.</p>
+                </div>
+                <div class="interet-card">
+                    <i class="fas fa-music"></i>
+                    <h3>Musique</h3>
+                    <p>Guitariste amateur et mélomane.</p>
+                </div>
+                <div class="interet-card">
+                    <i class="fas fa-plane"></i>
+                    <h3>Voyages</h3>
+                    <p>Explorer de nouveaux horizons et cultures.</p>
+                </div>
+                <div class="interet-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>Intelligence Artificielle</h3>
+                    <p>Curieux des avancées en IA et machine learning.</p>
+                </div>
+                <div class="interet-card">
+                    <i class="fas fa-gamepad"></i>
+                    <h3>Jeux vidéo</h3>
+                    <p>Passionné de gaming et de game design.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Activités sportives -->
+    <section id="sports" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Activités sportives</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="sports-grid">
+                <div class="sport-card">
+                    <div class="sport-img-placeholder">
+                        <i class="fas fa-running"></i>
+                    </div>
+                    <h3>Course à pied</h3>
+                    <p>Je cours régulièrement pour maintenir ma forme physique et clarifier mon esprit.</p>
+                </div>
+                <div class="sport-card">
+                    <div class="sport-img-placeholder">
+                        <i class="fas fa-swimmer"></i>
+                    </div>
+                    <h3>Natation</h3>
+                    <p>La natation est mon sport de prédilection pour l'endurance.</p>
+                </div>
+                <div class="sport-card">
+                    <div class="sport-img-placeholder">
+                        <i class="fas fa-bicycle"></i>
+                    </div>
+                    <h3>Cyclisme</h3>
+                    <p>Je pratique le cyclisme en plein air pendant les week-ends.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section section-bg">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Formulaire de demande d'information</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Parlons de votre projet</h3>
+                    <p>N'hésitez pas à me contacter pour discuter de vos idées et projets. Je suis toujours ouvert aux nouvelles opportunités.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>DOUALA, CAMEROUN</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>apouamounabdelraouf@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+237 6 57 04 16 14</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm" novalidate>
+                    <div class="form-group">
+                        <label for="nom">Nom complet</label>
+                        <input type="text" id="nom" name="nom" placeholder="Votre nom" required>
+                        <span class="error-message" id="nomError">Veuillez entrer votre nom</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+                        <span class="error-message" id="emailError">Veuillez entrer un email valide</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="sujet">Sujet</label>
+                        <input type="text" id="sujet" name="sujet" placeholder="Sujet de votre message" required>
+                        <span class="error-message" id="sujetError">Veuillez entrer un sujet</span>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Votre message..." required></textarea>
+                        <span class="error-message" id="messageError">Veuillez entrer votre message</span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">Envoyer le message</button>
+                    <div class="form-success" id="formSuccess">
+                        <i class="fas fa-check-circle"></i>
+                        Message envoyé avec succès !
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h3>Portfolio</h3>
+                    <p>Merci de visiter mon portfolio. N'hésitez pas à me contacter pour toute question ou collaboration.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#a-propos">À propos</a></li>
+                        <li><a href="#competences">Compétences</a></li>
+                        <li><a href="#projets">Projets</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Suivez-moi</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Abdelraouf Apouamoun. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
