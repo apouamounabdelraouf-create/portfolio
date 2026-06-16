@@ -284,31 +284,22 @@ img {
     animation: fadeInRight 1s ease;
 }
 
-.hero-img-placeholder {
+.hero-img-frame {
     width: 350px;
     height: 350px;
     border-radius: 50%;
-    background: linear-gradient(135deg, rgba(108, 99, 255, 0.2), rgba(245, 0, 87, 0.2));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 3px solid var(--border-color);
-    position: relative;
-}
-
-.hero-img-placeholder::before {
-    content: '';
-    position: absolute;
-    inset: -8px;
-    border-radius: 50%;
+    padding: 8px;
     background: linear-gradient(135deg, var(--primary), var(--secondary));
-    opacity: 0.3;
-    z-index: -1;
+    position: relative;
+    animation: fadeInRight 1s ease;
 }
 
-.hero-img-placeholder i {
-    font-size: 6rem;
-    color: var(--primary);
+.hero-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
 }
 
 /* ========== ABOUT ========== */
@@ -319,21 +310,21 @@ img {
     align-items: center;
 }
 
-.about-img-placeholder {
+.about-img-frame {
     width: 100%;
     max-width: 400px;
     aspect-ratio: 1;
     border-radius: 20px;
-    background: linear-gradient(135deg, rgba(108, 99, 255, 0.15), rgba(245, 0, 87, 0.1));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid var(--border-color);
+    padding: 6px;
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
 }
 
-.about-img-placeholder i {
-    font-size: 5rem;
-    color: var(--primary);
+.about-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    object-fit: cover;
+    display: block;
 }
 
 .about-text h3 {
@@ -917,13 +908,9 @@ img {
         justify-content: center;
     }
 
-    .hero-img-placeholder {
+    .hero-img-frame {
         width: 250px;
         height: 250px;
-    }
-
-    .hero-img-placeholder i {
-        font-size: 4rem;
     }
 
     .about-content {
@@ -985,13 +972,9 @@ img {
         font-size: 1.8rem;
     }
 
-    .hero-img-placeholder {
+    .hero-img-frame {
         width: 200px;
         height: 200px;
-    }
-
-    .hero-img-placeholder i {
-        font-size: 3rem;
     }
 
     .btn {
